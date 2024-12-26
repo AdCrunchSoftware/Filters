@@ -8,4 +8,7 @@
 @@||metro.co.uk^$generichide
 metro.co.uk##.ad-slot
 @@||bild.de^$generichide
+bild.de##[href*="adtitle"]
+bild.de##.ad-wrapper--superbanner
+bild.de##.ad-wrapper--mrec_btf_100
 !#endif
