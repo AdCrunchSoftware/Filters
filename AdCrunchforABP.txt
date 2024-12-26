@@ -4,4 +4,7 @@
 ! Homepage: https://github.com/AdCrunchSoftware/Filters
 ! GitHub Issues: https://github.com/AdCrunchSoftware/Filters/issues
 !#if !ext_ublock
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xmlhttprequest
+@@||metro.co.uk^$generichide
+metro.co.uk##.ad-slot
 !#endif
