@@ -1362,18 +1362,6 @@ turdainfo.ro##.module-inner
 turdainfo.ro##.banner
 ! detection ziaruldeiasi
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ziaruldeiasi.ro
-!spam => https://publicrecord.ro/2024/10/22/caruta-cu-troli-din-caracal-si-teoriile-conspirationiste/
-||olt-media.ro^
-||romania-unita.ro^
-||romania-noastra.ro^
-||jurnalul-militar.ro^
-||romanulnationalist.ro^
-||gazeta-romaneasca.ro^
-||universul-stirilor.ro^
-||romanii-liberi.ro^
-||ziarul-democrat.ro^
-||oltenia-actualitati.ro^
-||rezistentaromanesca.ro^
 bihon.ro##[href^="https://www.melindainstal.ro/"]
 ! popunders
 ||gonowx.com/*?filmexxx.live$script,domain=filmexxx.live
@@ -1425,8 +1413,6 @@ posturi.live##+js(acs, setTimeout, admc)
 ||cumult.com^
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=qbebe.ro,redirect=google-ima.js,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=divahair.ro,redirect=google-ima.js,important
-||sputniknews.*^$all
-||sputnikglobe.*^$all
 filmeserialegratis.*,fsplayer.*##+js(nowoif)
 cinemagia.ro###banner_container_top
 cinemagia.ro###header:style(position:static!important; top: 0 !important;)
