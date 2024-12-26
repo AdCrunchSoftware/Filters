@@ -791,7 +791,6 @@ wall-street.ro#?#[class^="add"]:-abp-has([id^="adocean"])
 @@||mocasoft.ro^$generichide
 ! https://github.com/NanoMeow/QuickReports/issues/610
 @@||giz.ro^$generichide
-! video player anti-adb + DIV stuff
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=kanald.ro|stirilekanald.ro|video.onnetwork.tv
 ! https://github.com/uBlockOrigin/uAssets/issues/16121
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/$script,domain=kanald.ro
@@ -1360,7 +1359,6 @@ actualmehedinti.ro##.banner_wrapper
 turdainfo.ro##[href="https://app.aqmeter.com/"]
 turdainfo.ro##.module-inner
 turdainfo.ro##.banner
-! detection ziaruldeiasi
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ziaruldeiasi.ro
 bihon.ro##[href^="https://www.melindainstal.ro/"]
 ! popunders
@@ -1403,16 +1401,13 @@ myradioonline.ro##+js(rc, _bannerTop1)
 ! https://github.com/tcptomato/ROad-Block/issues/323
 litoraltv.ro##.pum-active
 litoraltv.ro##html:style(overflow: auto !important;)
-! anti-adb
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro|evz.ro
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,redirect=google-ima.js,domain=stiripesurse.ro|kanald2.ro|divahair.ro|qbebe.ro|radioimpuls.ro|smartliving.ro|a1.ro|antena3.ro|antenastars.ro|as.ro|jurnalul.ro|observator.tv|observatornews.ro|spynews.ro|zutv.ro|evz.ro
 ! posturi. live popups
 posturi.live##+js(nowoif)
 posturi.live##+js(nosiif, location)
 posturi.live##+js(acs, setTimeout, admc)
 ||blaneo.com^
 ||cumult.com^
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=qbebe.ro,redirect=google-ima.js,important
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=divahair.ro,redirect=google-ima.js,important
 filmeserialegratis.*,fsplayer.*##+js(nowoif)
 cinemagia.ro###banner_container_top
 cinemagia.ro###header:style(position:static!important; top: 0 !important;)
@@ -1420,13 +1415,9 @@ cinemagia.ro###main_container:style(padding-top: 0 !important;)
 cinemagia.ro##.header_nav:style(position:static !important;)
 filmeonlinesubtitrate.org##+js(aopr, doSecondPop)
 yoixmzo.xyz##+js(aopr, doSecondPop)
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=radioimpuls.ro,redirect-rule=google-ima.js
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=smartliving.ro,redirect-rule=google-ima.js
 @@||digisport.ro^$xhr,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=digisport.ro
 @@||digisport.ro^$ghide
-! https://github.com/AdguardTeam/AdguardFilters/issues/160134
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=stiripesurse.ro
 sampmoduri.ro##+js(rmnt, script, /jQuery.*reload/)
 ! https://www.reddit.com/r/uBlockOrigin/s/ztY9iMT88X
 vzlinks.com##+js(nowoif)
@@ -1460,5 +1451,3 @@ epochtimes-romania.com##.modal__overlay
 epochtimes-romania.com##body:style(overflow: unset !important)
 ! stream player anti-adblock
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,method=get,domain=tvonline123.com
-! video player anti-adb
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=kanald2.ro
