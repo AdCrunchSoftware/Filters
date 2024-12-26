@@ -1,0 +1,5 @@
+! Title: AdCrunch Filters
+! Expires: 2 Days
+! License: GNU General Public License v3.0; https://github.com/AdCrunchSoftware/Filters/blob/main/LICENSE
+! Homepage: https://github.com/AdCrunchSoftware/Filters
+! GitHub Issues: https://github.com/AdCrunchSoftware/Filters/issues
