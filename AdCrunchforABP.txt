@@ -15,4 +15,6 @@ bild.de##.ad-wrapper--mrec_btf_100
 ##[href^="https://paid.outbrain.com"]
 #@#ins.adsbygoogle[data-ad-slot]
 #@#ins.adsbygoogle[data-ad-client]
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest
 !#endif
