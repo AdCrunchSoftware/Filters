@@ -11,4 +11,8 @@ metro.co.uk##.ad-slot
 bild.de##[href*="adtitle"]
 bild.de##.ad-wrapper--superbanner
 bild.de##.ad-wrapper--mrec_btf_100
+##[href*="$ob_click_id"]
+##[href^="https://paid.outbrain.com"]
+#@#ins.adsbygoogle[data-ad-slot]
+#@#ins.adsbygoogle[data-ad-client]
 !#endif
