@@ -18,4 +18,5 @@ bild.de##.ad-wrapper--mrec_btf_100
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/*_fy*.js$script
+#@#.adsbygoogle-noablate
 !#endif
