@@ -13,13 +13,20 @@ jobs:
     - name: Checkout the repository
       uses: actions/checkout@v2
 
+    - name: Set up SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.ACTIONS_DEPLOY_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
+
     - name: Clone EasyList repository
       run: git clone https://github.com/easylist/easylist.git
 
     - name: Process filter rules
       run: |
         mkdir -p adcrunch_filters
-        for file in $(find easylist -name '*.txt'); do
+        find easylist -name '*.txt' | while read file; do
           mkdir -p $(dirname adcrunch_filters/$file)
           sed -e 's/\$third-party/\$3p/g' -e 's/~third-party/\1p/g' -e 's/\$xmlhttprequest/\$xhr/g' $file > adcrunch_filters/$file
         done
@@ -37,4 +44,3 @@ jobs:
         GIT_AUTHOR_EMAIL: github-actions@github.com
         GIT_COMMITTER_NAME: github-actions
         GIT_COMMITTER_EMAIL: github-actions@github.com
-      # Ensure you have set up SSH keys for GitHub Actions to push to your repository
