@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: AdCrunch - Filters For AdBlock/Adblock Plus
 ! Expires: 2 Days
 ! License: GNU General Public License v3.0; https://github.com/AdCrunchSoftware/Filters/blob/main/LICENSE
