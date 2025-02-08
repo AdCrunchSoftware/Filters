@@ -20,4 +20,7 @@ bild.de##.ad-wrapper--mrec_btf_100
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/*_fy*.js$script
 #@#.adsbygoogle-noablate
 @@||pagead2.googlesyndication.com/pagead/$xmlhttprequest,domain=cheatnetwork.eu
+! kissanime.com.ru anti-adblock
+! https://github.com/AdCrunchSoftware/Filters/issues/1
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=kissanime.com.ru
 !#endif
