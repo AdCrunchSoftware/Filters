@@ -30,4 +30,8 @@ bild.de##.ad-wrapper--mrec_btf_100
 @@||hamzaerol.com.tr^$generichide
 ! robbreport.com anti-adblock
 @@||ads.blogherads.com/*header.js$script,third-party
+! admiral i think
+#@#.ads_banner
+#@#.stickyads
+#@#.single-top-ad
 !#endif
