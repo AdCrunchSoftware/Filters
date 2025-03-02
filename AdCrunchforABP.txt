@@ -28,4 +28,6 @@ bild.de##.ad-wrapper--mrec_btf_100
 @@||file-upload.net^$script,~third-party
 !##.fc-ab-root
 @@||hamzaerol.com.tr^$generichide
+! robbreport.com anti-adblock
+@@||ads.blogherads.com/*header.js$script,third-party
 !#endif
