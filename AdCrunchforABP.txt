@@ -24,4 +24,7 @@ bild.de##.ad-wrapper--mrec_btf_100
 ! kissanime.com.ru anti-adblock
 ! https://github.com/AdCrunchSoftware/Filters/issues/1
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=kissanime.com.ru
+
+@@||file-upload.net^$script,~third-party
+##.fc-ab-root
 !#endif
