@@ -27,4 +27,5 @@ bild.de##.ad-wrapper--mrec_btf_100
 
 @@||file-upload.net^$script,~third-party
 ##.fc-ab-root
+@@||hamzaerol.com.tr^$generichide
 !#endif
