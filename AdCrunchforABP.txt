@@ -47,4 +47,6 @@ bild.de##.ad-wrapper--mrec_btf_100
 
 @@||sampledrive.org^$generichide
 
+@@||www3.doubleclick.net/|$xmlhttprequest
+
 !#endif
