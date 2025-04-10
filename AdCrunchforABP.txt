@@ -32,6 +32,16 @@ bild.de##.ad-wrapper--mrec_btf_100
 @@||ads.blogherads.com/*header.js$script,third-party
 ! admiral i think
 #@#.ads_banner
+
+! CHP anti-adblock
+! Example: manhuaga.com
+#@#.ad-slot
+#@#[data-ad-manager-id]
+#@#[data-ad-module]
+#@#[data-ad-width]
+#@#[data-adblockkey]
+#@#[data-advadstrackid]
+
 #@#.stickyads
 #@#.single-top-ad
 !#endif
