@@ -53,4 +53,7 @@ bild.de##.ad-wrapper--mrec_btf_100
 ! https://github.com/AdguardTeam/AdguardFilters/issues/206499
 @@||a.bf-ad.net/adengine/tourmagazin/adengine.js$script,domain=tour-magazin.de
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/206488
+||streambolt.tv/js2/bub5.js
+
 !#endif
