@@ -49,4 +49,8 @@ bild.de##.ad-wrapper--mrec_btf_100
 
 @@||www3.doubleclick.net/|$xmlhttprequest
 
+! https://www.tour-magazin.de/ anti-adblock
+! https://github.com/AdguardTeam/AdguardFilters/issues/206499
+@@||a.bf-ad.net/adengine/tourmagazin/adengine.js$script,domain=tour-magazin.de
+
 !#endif
