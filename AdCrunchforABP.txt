@@ -59,4 +59,9 @@ bild.de##.ad-wrapper--mrec_btf_100
 ! aeromods.app anti-adblock
 ||aeromods.app/assets/js/plugins/0.js
 
+! trueachievements.com anti-adblock
+! https://github.com/AdguardTeam/AdguardFilters/issues/206066
+! allow bait
+@@||hb.vntsm.com/v4/live/vms/sites/*/index.js
+@@||hb.vntsm.com/xpopup.js
 !#endif
