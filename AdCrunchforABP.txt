@@ -64,4 +64,8 @@ bild.de##.ad-wrapper--mrec_btf_100
 ! allow bait
 @@||hb.vntsm.com/v4/live/vms/sites/*/index.js
 @@||hb.vntsm.com/xpopup.js
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/205613
+@@||onlytech.com^$generichide
+
 !#endif
