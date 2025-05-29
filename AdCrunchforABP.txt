@@ -56,4 +56,7 @@ bild.de##.ad-wrapper--mrec_btf_100
 ! https://github.com/AdguardTeam/AdguardFilters/issues/206488
 ||streambolt.tv/js2/bub5.js
 
+! aeromods.app anti-adblock
+||aeromods.app/assets/js/plugins/0.js
+
 !#endif
