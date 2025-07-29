@@ -68,4 +68,6 @@ bild.de##.ad-wrapper--mrec_btf_100
 ! https://github.com/AdguardTeam/AdguardFilters/issues/205613
 @@||onlytech.com^$generichide
 
+@@||foxnews.com^$generichide
+
 !#endif
