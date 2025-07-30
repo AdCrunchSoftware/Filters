@@ -71,7 +71,7 @@ bild.de##.ad-wrapper--mrec_btf_100
 @@||foxnews.com^$generichide
 
 ! igg-games
-igg-games.com,pcgamestorrents.org##[style="display: flex; justify-content: space-between"]
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org##[style="display: flex; justify-content: space-between"]
 ||guttidetoluole.rest^
 @@||download.megaup.net/ad_top.js
 @@||challenges.cloudflare.com^$domain=urlbluemedia.shop
