@@ -70,4 +70,7 @@ bild.de##.ad-wrapper--mrec_btf_100
 
 @@||foxnews.com^$generichide
 
+! igg-games
+igg-games.com,pcgamestorrents.org##[style="display: flex; justify-content: space-between"]
+
 !#endif
