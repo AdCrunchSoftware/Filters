@@ -76,5 +76,6 @@ igg-games.com,pcgamestorrents.com,pcgamestorrents.org##[style="display: flex; ju
 @@||download.megaup.net/ad_top.js
 @@||challenges.cloudflare.com^$domain=urlbluemedia.shop
 $subdocument,domain=urlbluemedia.shop
+@@||megaup.net^$script,~third-party
 
 !#endif
